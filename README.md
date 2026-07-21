@@ -4,16 +4,30 @@ A curated compilation of the best resources for learning music — starting with
 
 > *Inspired by [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x), but for learning to play music instead of building software.*
 
-Resources are sorted by **media type** and tagged by **cost** so you can find exactly what fits your budget and learning style:
+You can browse three ways:
+
+1. **By goal** — what you want to play and your current level (e.g. *beginner → rock*, *seasoned player → starting jazz*)
+2. **By method** — named teaching systems like the *Barry Harris method*, *CAGED*, or the *Berklee method*
+3. **By media type & cost** — websites, apps, channels, books, tools, each tagged by price
+
+### Cost tags
 
 - `FREE` — completely free, no paywall
 - `FREEMIUM` — solid free tier, paid options for more
 - `PAID` — requires a subscription or one-time purchase (free trials noted where available)
 
+### Skill levels
+
+- 🟢 **Beginner** — first chords, tuning, basic strumming
+- 🟡 **Intermediate** — barre chords, scales, starting to solo, playing full songs
+- 🔴 **Advanced / Seasoned** — improvisation, chord melody, genre specialization
+
 ---
 
 ## Table of Contents
 
+- [Browse by Goal (Genre × Skill Level)](#browse-by-goal-genre--skill-level)
+- [Browse by Method](#browse-by-method)
 - [Websites & Structured Courses](#websites--structured-courses)
 - [Mobile & Desktop Apps](#mobile--desktop-apps)
 - [YouTube Channels](#youtube-channels)
@@ -22,6 +36,101 @@ Resources are sorted by **media type** and tagged by **cost** so you can find ex
 - [Free Tools (Tuner / Metronome / Chord Finder)](#free-tools-tuner--metronome--chord-finder)
 - [Music Theory Foundations](#music-theory-foundations)
 - [Books](#books)
+
+---
+
+## Browse by Goal (Genre × Skill Level)
+
+Curated starting points. Mix free and paid; cost tags point you to entries in the sections below.
+
+### 🟢 Beginner → Rock
+
+- [JustinGuitar](#websites--structured-courses) `FREEMIUM` — start with the free Beginner Course, then the Rock modules
+- [Marty Music](#youtube-channels) `FREE` — classic-rock song lessons (Led Zep, AC/DC, Floyd, Metallica)
+- [Guitar Tricks](#websites--structured-courses) `PAID` — beginner-to-intermediate rock song library is excellent
+- [JamPlay Rock Learning Path](https://jamplay.com/learning-paths/rock-guitar/) `PAID` — basics → advanced rock
+- [LickLibrary Rock](https://www.licklibrary.com/learn/genres/rock) `PAID` — riffs and solos from classic rock songs
+
+### 🟡 Intermediate → Rock / Blues Soloing
+
+- [StichMethod Guitar](#youtube-channels) `FREE` — fretboard navigation and practical scale use
+- [TrueFire](#websites--structured-courses) `PAID` — blues/rock courses and jam tracks
+- [Fretride](#interactive-fretboard--theory-sites) `FREE` — CAGED, scale & arpeggio training
+- [FaChords](#websites--structured-courses) `FREEMIUM` — scales, progressions, fretboard theory
+
+### 🔴 Advanced / Seasoned → Beginning Jazz
+
+- [Jazz Guitar Online (jazzguitar.be)](https://www.jazzguitar.be/blog/jazz-guitar-lessons/) `FREE` — step-by-step jazz chords, arpeggios, standards
+- [Pickup Music — Jazz Guitar](https://www.pickupmusic.com/blog/jazz-guitar-lessons) `FREEMIUM` — free lessons + paid immersive courses
+- [TrueFire Jazz](https://learn.truefire.com/best-jazz-guitar-lessons-online) `PAID` — the biggest catalog of jazz courses online
+- [Play Jazz Guitar (Chris Standring)](https://playjazzguitar.com/jazz-guitar-lessons.html) `FREEMIUM` — free lessons + Inside Track membership
+- [LickLibrary Jazz](https://www.licklibrary.com/learn/genres/jazz) `PAID` — first jazz chord → soloing freedom
+- Start a named method → see [Browse by Method](#browse-by-method), especially **Barry Harris** and **Ted Greene**
+
+### 🔴 Advanced → Jazz Improvisation (deep end)
+
+- [Barry Harris method](#barry-harris-method) — the not-so-widely-known system for bebop improvisation
+- [Ted Greene — Single Note Soloing](#ted-greene) — jazz single-line improvisation
+- [Jazz School Online](https://jazzschoolonline.com/) `PAID` — Howard Rees teaching the Barry Harris tradition with guitar by Alan Kingstone
+
+### 🟢 Beginner → Acoustic / Strumming & Songs
+
+- [JustinGuitar](#websites--structured-courses) `FREEMIUM` — acoustic beginner path
+- [Good Guitarist](#websites--structured-courses) `FREE` — easy chord & strumming song tutorials
+- [Andy Guitar](#youtube-channels) `FREE` — beginner songs and riffs
+- [GuitarApp](#mobile--desktop-apps) `FREE` — curated song-based feeds
+
+### 🟡 Intermediate → Fingerstyle
+
+- [Fretboard Confidential](#youtube-channels) `FREE` — fingerstyle blues, advanced technique (David Hamburger)
+- [TrueFire](#websites--structured-courses) `PAID` — fingerstyle and folk courses
+
+---
+
+## Browse by Method
+
+Named teaching systems and pedagogical traditions — useful when you want to follow a coherent *approach* rather than scattered lessons.
+
+### Barry Harris Method
+
+A bebop harmony & improvisation system built on the **sixth-diminished scale**, moving major-sixth chords, and chromatic approach notes. Taught for decades by the late jazz pianist Dr. Barry Harris; less widely known outside jazz circles but deeply influential.
+
+- [The Barry Book](https://www.barrybook.org/) `FREE` — free PDF preserving the authentic Barry Harris bebop tradition
+- [Barry Harris Institute of Jazz](https://barryharrisinstituteofjazz.org/) `FREE` — free recorded Zoom intro series on Harris' foundational principles (Howard Rees)
+- [The Barry Harris Companion](https://barrycompanion.com/improvisation/) `FREE` — walkthroughs of improvisation concepts and "moves"
+- [Jazz School Online](https://jazzschoolonline.com/) `PAID` — full structured curriculum in the Harris tradition, with guitar demonstrations by Alan Kingstone
+- [Barry Harris Harmonic Method for Guitar](https://jazzworkshops.com/product/barry-harris-harmonic-method-for-guitar-dvds-workbook-streaming/) `PAID` — Howard Rees' workbook/DVD bundle adapting the method specifically for guitar
+- [jazzguitar.be — Official Barry Harris thread](https://www.jazzguitar.be/forum/improvisation/55582-official-barry-harris-thread.html) `FREE` — community discussion and pointers
+
+### CAGED System
+
+Maps the five open-chord shapes (C-A-G-E-D) across the fretboard so you can play chords, arpeggios, and scales in any position. Popularized in part by Mickey Baker, Ted Greene, and Berklee instructors.
+
+- [Fretride](#interactive-fretboard--theory-sites) `FREE` — CAGED games and training
+- [My Fretboard Trainer](#interactive-fretboard--theory-sites) `FREE` — CAGED visualization drills
+- [Guitar Theorist](#interactive-fretboard--theory-sites) `FREEMIUM` — CAGED on an interactive fretboard
+- [Good Guitarist — Better than CAGED](https://goodguitarist.com/better-than-caged-system/) `FREE` — practical walkthrough
+
+### Berklee Method (A Modern Method for Guitar)
+
+William Leavitt's *A Modern Method for Guitar* — the Berklee College sight-reading and chord/scale system. Rigorous, reading-first, foundational.
+
+- *A Modern Method for Guitar, Vol. 1–3* by William Leavitt `PAID` — the books (Hal Leonard / Berklee Press)
+- See also [Books](#books) for companion theory titles
+
+### Ted Greene
+
+Ted Greene's deeply influential books on chord chemistry and single-note jazz soloing. Dense, rewarding, a lifetime reference.
+
+- *Chord Chemistry* `PAID` — the classic chord reference ([Amazon](https://www.amazon.com/Ted-Greene-Chord-Chemistry/dp/0898986966))
+- *Jazz Guitar — Single Note Soloing, Vol. 1 & 2* `PAID` — scales, chords, soloing over changes
+- [TedGreene.com teaching archive](https://tedgreene.com/teaching/chords.asp) `FREE` — free chord & chord-melody lesson sheets
+
+### Mickey Baker Method
+
+*Mickey Baker's Complete Course in Jazz Guitar* — a short, classic 1950s method that got generations of players from basic chords to jazz comping and soloing fast.
+
+- *Mickey Baker's Complete Course in Jazz Guitar* `PAID` — the book
 
 ---
 
@@ -39,6 +148,10 @@ Resources are sorted by **media type** and tagged by **cost** so you can find ex
 | [Good Guitarist](https://goodguitarist.com/) | `FREE` | Easy chord tutorials, strumming patterns, song-based lessons. |
 | [Riff Interactive](https://www.riffinteractive.com/) | `FREEMIUM` | Interactive software-based lessons with jam tracks, beginner to advanced. |
 | [Online Guitar School Toolbox](https://onlineguitarschool.co.uk/toolbox/) | `FREE` | Hand-picked links to free practice tools, theory sites, and gear resources. |
+| [Jazz Guitar Online](https://www.jazzguitar.be/blog/jazz-guitar-lessons/) | `FREE` | Step-by-step jazz chords, arpeggios, scales, standards & improvisation for all levels. |
+| [Pickup Music](https://www.pickupmusic.com/blog/jazz-guitar-lessons) | `FREEMIUM` | Free jazz guitar lessons plus paid immersive structured courses. |
+| [Play Jazz Guitar](https://playjazzguitar.com/jazz-guitar-lessons.html) | `FREEMIUM` | Free jazz lessons from Chris Standring; paid Inside Track membership. |
+| [LickLibrary](https://www.licklibrary.com/learn/genres/rock) | `PAID` | Genre paths (rock, jazz, blues) from first chords to soloing. |
 
 ---
 
@@ -132,6 +245,11 @@ All books below are `PAID` (one-time purchase).
 |---|---|---|---|
 | Music Theory for Guitarists | Tom Kolb | Practical theory with online audio | [Hal Leonard](https://www.halleonard.com/product/695790/music-theory-for-guitarists) |
 | Hal Leonard Guitar Method | Will Schmid & Greg Koch | Foundational beginner method | [Hal Leonard](https://www.halleonard.com/) |
+| Visual Guitar Theory | Hal Leonard | Recognizing essential fretboard patterns | [Music & Arts](https://www.musicarts.com/hal-leonard-visual-guitar-theory--an-easy-guide-to-recognizing-and-understanding-essential-fretboard-patterns-main0388549) |
+| A Modern Method for Guitar, Vol. 1–3 | William Leavitt | The Berklee sight-reading & chord/scale method | [Berklee Press / Hal Leonard](https://www.halleonard.com/) |
+| Chord Chemistry | Ted Greene | The classic chord reference for advanced voicings | [Amazon](https://www.amazon.com/Ted-Greene-Chord-Chemistry/dp/0898986966) |
+| Jazz Guitar — Single Note Soloing, Vol. 1 & 2 | Ted Greene | Jazz single-line improvisation over changes | [Amazon](https://www.amazon.com/) |
+| Mickey Baker's Complete Course in Jazz Guitar | Mickey Baker | Fast 1950s path from basic chords to jazz comping/soloing | [Amazon](https://www.amazon.com/) |
 | Fretboard Theory | Desi Serna | CAGED, scales, chord progressions in context of real songs | [Amazon](https://www.amazon.com/) |
 | Music Theory for Guitarists (Vol 1–4) | James Shipway | Theory & fretboard concepts, beginner to advanced | [Amazon](https://www.amazon.com/hal-leonard-music-theory-guitarists/s?k=hal+leonard+music+theory+for+guitarists) |
 | Guitar Fretboard Memorization | Hal Leonard | Demystify the fretboard | [Ultimate Guitar Books](https://www.ultimate-guitar.com/books/guitar-fretboard-memorization-e4mm) |
@@ -146,6 +264,8 @@ Found a great resource that's missing? Open an issue or PR. Please include:
 - **Name** and **link**
 - **Media type** (website / app / channel / tool / book / etc.)
 - **Cost** (`FREE` / `FREEMIUM` / `PAID`)
+- **Genre & skill level** (e.g. *rock / intermediate*, *jazz / advanced*) so it can be added to [Browse by Goal](#browse-by-goal-genre--skill-level)
+- **Method** (if it belongs to a named teaching system like Barry Harris, CAGED, Berklee, etc.)
 - **A one-line note** on what makes it good
 
 ## License
