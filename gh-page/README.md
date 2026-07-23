@@ -4,18 +4,14 @@ This folder is the GitHub Pages site root for this repo — everything under
 here gets published, organized by instrument category (e.g. `drumming/`).
 Add new categories as sibling folders and link them from `index.html`.
 
-## One-time setup (repo admin, do this once)
+## Setup
 
-The deploy workflow (`.github/workflows/pages.yml`) is already wired up to
-build and publish this folder on every push to `main`, but GitHub Pages
-itself still needs to be pointed at it:
+The deploy workflow (`.github/workflows/pages.yml`) builds and publishes this
+folder on every push to `main`. It self-enables Pages on the repo the first
+time it runs (`configure-pages` with `enablement: true`), so no manual
+Settings step is required — just push to `main`, or run the "Deploy GitHub
+Pages" workflow from the Actions tab.
 
-1. Go to **Settings → Pages** in the repo.
-2. Under **Build and deployment → Source**, choose **GitHub Actions**
-   (not "Deploy from a branch" — this folder isn't `/docs` or repo root, so
-   the branch-deploy option can't serve it directly).
-3. Push to `main` (or re-run the "Deploy GitHub Pages" workflow from the
-   Actions tab) to trigger the first deployment.
-
-After that, the site is live at `https://<owner>.github.io/<repo>/` and every
-subsequent push to `main` touching `gh-page/**` redeploys automatically.
+After the first successful run, the site is live at
+`https://<owner>.github.io/<repo>/` and every subsequent push to `main`
+touching `gh-page/**` redeploys automatically.
