@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Music Studies — Practice Guides</title>
+<style>
+  :root { --accent: #8B0000; --ink: #1a1a1a; --gray: #6b6b6b; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: #f4f4f4;
+    margin: 0;
+  }
+  .wrap { max-width: 7in; margin: 0.6in auto; padding: 0 0.4in; }
+  h1 { margin: 0; font-size: 22pt; }
+  p.subtitle {
+    margin: 2px 0 0 0;
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  header { padding-bottom: 8px; border-bottom: 3px solid var(--accent); margin-bottom: 20px; }
+  ul.categories { list-style: none; margin: 0; padding: 0; }
+  ul.categories li {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 12px 16px;
+  }
+  ul.categories a {
+    font-size: 13pt;
+    font-weight: 700;
+    color: var(--accent);
+    text-decoration: none;
+  }
+  ul.categories a:hover { text-decoration: underline; }
+  ul.categories .desc { color: var(--gray); font-size: 10pt; margin-top: 2px; }
+  footer { margin-top: 24px; color: var(--gray); font-size: 9pt; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Music Studies</h1>
+    <p class="subtitle">Practice Guides</p>
+  </header>
+
+  <ul class="categories">
+    <li>
+      <a href="drumming/index.html">Drumming</a>
+      <div class="desc">Printable quick-reference guides for electronic drum kits and modules.</div>
+    </li>
+  </ul>
+
+  <footer>
+    Each instrument category has its own folder with a shared template and
+    data-driven guides — see that folder's README for how to add one.
+  </footer>
+</div>
+</body>
+</html>
