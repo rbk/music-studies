@@ -1,0 +1,58 @@
+<svg viewBox="0 0 560 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pad and trigger layout diagram">
+  <!-- CRASH 1 -->
+  <circle cx="55" cy="70" r="50" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="55" y="66" text-anchor="middle" font-size="10" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">CRASH</text>
+  <text x="55" y="78" text-anchor="middle" font-size="10" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">1</text>
+
+  <!-- CRASH 2 -->
+  <circle cx="505" cy="70" r="50" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="505" y="66" text-anchor="middle" font-size="10" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">CRASH</text>
+  <text x="505" y="78" text-anchor="middle" font-size="10" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">2</text>
+
+  <!-- RIDE -->
+  <circle cx="472" cy="215" r="44" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="472" y="219" text-anchor="middle" font-size="10" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">RIDE</text>
+
+  <!-- TOM1 -->
+  <circle cx="150" cy="150" r="40" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="150" y="147" text-anchor="middle" font-size="9" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">TOM</text>
+  <text x="150" y="158" text-anchor="middle" font-size="9" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">1</text>
+
+  <!-- TOM2 -->
+  <circle cx="230" cy="120" r="40" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="230" y="117" text-anchor="middle" font-size="9" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">TOM</text>
+  <text x="230" y="128" text-anchor="middle" font-size="9" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">2</text>
+
+  <!-- TOM3 -->
+  <circle cx="330" cy="120" r="40" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="330" y="117" text-anchor="middle" font-size="9" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">TOM</text>
+  <text x="330" y="128" text-anchor="middle" font-size="9" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">3</text>
+
+  <!-- TOM4 -->
+  <circle cx="410" cy="150" r="40" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="410" y="147" text-anchor="middle" font-size="9" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">TOM</text>
+  <text x="410" y="158" text-anchor="middle" font-size="9" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">4</text>
+
+  <!-- HI-HAT -->
+  <circle cx="90" cy="380" r="48" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="90" y="377" text-anchor="middle" font-size="9.5" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">HI-HAT</text>
+
+  <!-- HI-HAT CONTROL -->
+  <circle cx="65" cy="465" r="32" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="65" y="461" text-anchor="middle" font-size="9" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">HI-HAT</text>
+  <text x="65" y="473" text-anchor="middle" font-size="9" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">CTRL</text>
+
+  <!-- SNARE -->
+  <circle cx="230" cy="260" r="50" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="230" y="265" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">SNARE</text>
+
+  <!-- RIM -->
+  <circle cx="230" cy="335" r="27" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="230" y="340" text-anchor="middle" font-size="10.5" font-weight="700" fill="#333" font-family="Helvetica, Arial, sans-serif">RIM</text>
+
+  <!-- KICK -->
+  <circle cx="280" cy="430" r="72" fill="#fbeaea" stroke="#8B0000" stroke-width="2"/>
+  <text x="280" y="437" text-anchor="middle" font-size="14" font-weight="700" fill="#8B0000" font-family="Helvetica, Arial, sans-serif">KICK</text>
+
+  <text x="280" y="510" text-anchor="middle" font-size="9" fill="#999" font-family="Helvetica, Arial, sans-serif">PAD / TRIGGER LAYOUT (approx. relative positions)</text>
+</svg>
