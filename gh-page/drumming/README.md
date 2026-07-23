@@ -75,8 +75,9 @@ for a closing "suggested practice routine" section).
 
 ## Publishing to GitHub Pages
 
-Everything in this folder uses relative links, so it works as-is if GitHub
-Pages is later pointed at this repo (serving `drumming/index.html` as the
-folder's entry point, or the whole repo from root with the guide linked from
-elsewhere). No build step is required at publish time — commit the generated
-files under `guides/`.
+This folder lives under `gh-page/drumming/`, which is the GitHub Pages site
+root for this repo (see `.github/workflows/pages.yml`, and `gh-page/README.md`
+for the one-time Settings step). It's linked from `gh-page/index.html` and
+deploys automatically on every push to `main` that touches `gh-page/**`. No
+build step runs at publish time — commit the generated files under
+`guides/`, the workflow just uploads the folder as-is.
