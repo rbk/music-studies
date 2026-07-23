@@ -1,0 +1,41 @@
+<svg viewBox="0 0 680 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Top control panel diagram">
+  <!-- module body -->
+  <rect x="8" y="80" width="664" height="170" rx="16" fill="#fafafa" stroke="#555" stroke-width="1.5"/>
+
+  <!-- VOLUME knob -->
+  <circle cx="70" cy="165" r="30" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <line x1="70" y1="165" x2="70" y2="140" stroke="#444" stroke-width="2"/>
+  <line x1="70" y1="52" x2="70" y2="133" stroke="#8B0000" stroke-width="1"/>
+  <text x="70" y="44" text-anchor="middle" font-size="12" font-weight="700" fill="#8B0000" font-family="Helvetica, Arial, sans-serif">VOLUME</text>
+
+  <!-- SONG / KIT / VOICE cluster -->
+  <rect x="185" y="130" width="46" height="34" rx="6" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="208" y="151" text-anchor="middle" font-size="7.5" fill="#333" font-family="Helvetica, Arial, sans-serif">SONG</text>
+  <rect x="237" y="130" width="46" height="34" rx="6" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="260" y="151" text-anchor="middle" font-size="7.5" fill="#333" font-family="Helvetica, Arial, sans-serif">KIT</text>
+  <rect x="289" y="130" width="46" height="34" rx="6" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="312" y="151" text-anchor="middle" font-size="7.5" fill="#333" font-family="Helvetica, Arial, sans-serif">VOICE</text>
+  <path d="M185 122 h150" fill="none" stroke="#8B0000" stroke-width="1"/>
+  <line x1="260" y1="122" x2="260" y2="110" stroke="#8B0000" stroke-width="1"/>
+  <text x="260" y="102" text-anchor="middle" font-size="12" font-weight="700" fill="#8B0000" font-family="Helvetica, Arial, sans-serif">SONG / KIT / VOICE</text>
+
+  <!-- PAGE/SELECT -->
+  <rect x="390" y="130" width="90" height="34" rx="6" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="435" y="151" text-anchor="middle" font-size="8" fill="#333" font-family="Helvetica, Arial, sans-serif">◀ PAGE ▶</text>
+  <line x1="435" y1="130" x2="435" y2="98" stroke="#8B0000" stroke-width="1"/>
+  <text x="435" y="90" text-anchor="middle" font-size="12" font-weight="700" fill="#8B0000" font-family="Helvetica, Arial, sans-serif">PAGE / SELECT</text>
+
+  <!-- START/STOP -->
+  <circle cx="540" cy="165" r="26" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="540" y="169" text-anchor="middle" font-size="7.5" fill="#333" font-family="Helvetica, Arial, sans-serif">▶ / ■</text>
+  <line x1="540" y1="139" x2="540" y2="60" stroke="#8B0000" stroke-width="1"/>
+  <text x="540" y="52" text-anchor="middle" font-size="12" font-weight="700" fill="#8B0000" font-family="Helvetica, Arial, sans-serif">START/STOP</text>
+
+  <!-- SAVE -->
+  <rect x="600" y="141" width="56" height="34" rx="6" fill="#eee" stroke="#444" stroke-width="1.5"/>
+  <text x="628" y="162" text-anchor="middle" font-size="8" fill="#333" font-family="Helvetica, Arial, sans-serif">SAVE</text>
+  <line x1="628" y1="141" x2="628" y2="98" stroke="#8B0000" stroke-width="1"/>
+  <text x="628" y="90" text-anchor="middle" font-size="12" font-weight="700" fill="#8B0000" font-family="Helvetica, Arial, sans-serif">SAVE</text>
+
+  <text x="340" y="242" text-anchor="middle" font-size="9" fill="#999" font-family="Helvetica, Arial, sans-serif">NITRO DRUM MODULE — TOP CONTROL PANEL (schematic)</text>
+</svg>

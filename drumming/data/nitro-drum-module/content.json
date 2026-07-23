@@ -1,0 +1,73 @@
+{
+  "page_title": "Alesis Nitro Drum Module — Quick Practice Guide",
+  "title": "Alesis Nitro Drum Module",
+  "subtitle": "Quick Practice Guide",
+  "footer": "Alesis Nitro Drum Module — Practice Reference",
+  "sections": [
+    {
+      "heading": "1. Basics",
+      "diagram": "panel.svg",
+      "rows": [
+        {"ctrl": "KIT", "desc": "Cycles through the module's built-in drum kit sounds. Turn/press to browse, use PAGE/SELECT or the dial to confirm."},
+        {"ctrl": "VOLUME", "desc": "Sets the overall output level of the module (pads, click, and songs together). Turn to match headphone or amp level."},
+        {"ctrl": "DRUM OFF", "desc": "Mutes the drum pads while keeping the click and/or song audio playing — useful for listening back without your playing covering the track."}
+      ]
+    },
+    {
+      "heading": "2. Metronome Practice",
+      "rows": [
+        {"ctrl": "CLICK", "desc": "Toggles the built-in metronome on/off. A steady click keeps your internal tempo honest."},
+        {"ctrl": "TEMPO", "desc": "Hold and turn the dial, or use the ▲▼ arrows, to set the click speed in BPM (beats per minute)."}
+      ],
+      "tip": "Start slow with a click on every beat, then gradually increase the tempo a few BPM at a time as the pattern feels solid."
+    },
+    {
+      "heading": "3. Play-Along with Built-in Songs",
+      "rows": [
+        {"ctrl": "SONG", "desc": "Loads the module's built-in play-along tracks for practicing to real songs."},
+        {"ctrl": "◀ ▶ / center ▮", "desc": "Navigate between songs and play/pause the currently loaded track."},
+        {"ctrl": "PLAY/PRACTICE", "desc": "Mutes an individual drum part (e.g., snare or hi-hat) from the song so you play that part live while the rest of the track continues."}
+      ]
+    },
+    {
+      "heading": "4. Rhythm/Pattern Practice (Learning Mode)",
+      "rows": [
+        {"ctrl": "PATTERN / RHYTHM / BEAT", "desc": "Loads guided rhythm exercises that walk through beats and patterns at increasing difficulty."},
+        {"ctrl": "PAGE/SELECT", "desc": "Scrolls through the list of available exercises within Learning Mode."}
+      ]
+    },
+    {
+      "heading": "5. Pad Layout Reference",
+      "intro": "Use this map to find which pad triggers which sound when editing kits or following pattern exercises.",
+      "diagram": "pads.svg",
+      "diagram_class": "pad-diagram",
+      "rows": [
+        {"ctrl": "CRASH 1 / CRASH 2", "desc": "Crash cymbal pads, outer edges of the kit."},
+        {"ctrl": "RIDE", "desc": "Ride cymbal pad, upper right."},
+        {"ctrl": "TOM 1–4", "desc": "Rack and floor tom pads, arced across the middle."},
+        {"ctrl": "HI-HAT / HI-HAT CONTROL", "desc": "Hi-hat pad and its open/closed pedal control, lower left."},
+        {"ctrl": "SNARE / RIM", "desc": "Snare pad and rim-click zone, center."},
+        {"ctrl": "KICK", "desc": "Kick drum trigger, large and centered at the base of the kit."}
+      ]
+    },
+    {
+      "heading": "6. Recording Yourself",
+      "rows": [
+        {"ctrl": "RECORD", "desc": "Arms and captures your playing (with click, song, or pattern if active) for later playback."},
+        {"ctrl": "SAVE", "desc": "Stores the recording so it isn't lost when the module powers off or a new kit is loaded."},
+        {"ctrl": "START/STOP", "desc": "Begins and ends both recording and playback."}
+      ],
+      "tip": "Play back every recording and check it against the click — this is the fastest way to spot rushing, dragging, or uneven fills."
+    },
+    {
+      "heading": "7. Suggested Practice Routine",
+      "routine": [
+        {"bold": "Pick a kit", "text": "cycle KIT to a sound you like."},
+        {"bold": "Set the click", "text": "turn on CLICK and set a comfortable TEMPO."},
+        {"bold": "Warm up", "text": "run through basic rudiments on the pads with the click."},
+        {"bold": "Play along", "text": "switch to SONG mode and use PLAY/PRACTICE to mute one part you want to isolate."},
+        {"bold": "Record and review", "text": "hit RECORD, play, then SAVE and listen back to check your timing."}
+      ]
+    }
+  ]
+}
