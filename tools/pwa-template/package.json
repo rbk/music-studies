@@ -1,0 +1,13 @@
+{
+  "name": "PWA Template",
+  "version": "0.0.2",
+  "description": "generic template to build pwa apps/prototypes quickly",
+  "main": "index.js",
+  "scripts": {
+    "dev": "serve . -p 3000"
+  },
+  "keywords": ["pwd", "apps", "quick and dirty"],
+  "author": "",
+  "license": "ISC",
+  "private": true
+}
