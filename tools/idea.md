@@ -23,4 +23,4 @@
 ## Notes
 
 - use `tmux` for long-running process to avoid blocking 
-- use `pi` coding agent cli where hand-off makes sense (probably in tmux)
+- use `pi` coding agent cli where hand-off makes sense for speed
