@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  chord-detector:
+    build: .
+    image: chord-detector:latest
+    container_name: chord-detector
+    stdin_open: true
+    tty: true
+    # ALSA device passthrough (Linux hosts). This gives the container
+    # direct access to the host's sound hardware.
+    devices:
+      - /dev/snd:/dev/snd
+    # PulseAudio socket passthrough (alternative/additional route, also
+    # Linux-native). If your host uses PulseAudio instead of raw ALSA,
+    # this lets the container talk to the host's Pulse server.
+    volumes:
+      - ${XDG_RUNTIME_DIR:-/run/user/1000}/pulse:/run/user/1000/pulse
+    environment:
+      - PULSE_SERVER=unix:/run/user/1000/pulse/native
+    group_add:
+      - audio
+    command: ["--mode", "listen"]

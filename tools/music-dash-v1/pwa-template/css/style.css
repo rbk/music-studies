@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #44bce7;
+    --primary-font: Helvetica, arial, sans-serif;
+    --primary-contrast: #000
+}
+::selection {
+    background-color: #9fff00;
+    color: var(--primary-contrast);
+}
+* { box-sizing: border-box; }
+
+body {
+    font-family: var(--primary-font);
+    background-color: var(--primary-contrast);
+    color: var(--primary-color);
+    line-height: 0;
+}
