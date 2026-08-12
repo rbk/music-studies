@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Music Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0a0a0a">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="stylesheet" href="./css/basscss.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- React + Babel (in-browser JSX, PWA-template style) -->
+    <script src="./js/core/react.development.js"></script>
+    <script src="./js/core/react-dom.development.js"></script>
+    <script src="./js/core/babel.standalone.min.js"></script>
+
+    <!-- utils -->
+    <script src="./js/utils/axios.min.js"></script>
+    <script src="./js/utils/lodash.min.js"></script>
+    <script src="./js/utils/moment.min.js"></script>
+    <script src="./js/audio.js"></script>
+</head>
+<body>
+<div id="root">
+    <div style="padding:2rem;color:#8a94a3;font-family:sans-serif">Loading music dashboard…</div>
+</div>
+
+<!-- Single inline babel bootstrap: fetch each module, transform with the
+     react preset, eval in order, then mount. This avoids babel-standalone's
+     flaky out-of-order handling of external text/babel src scripts. -->
+<script type="text/babel">
+const MODULES = [
+    "./js/useLocalStorage.js",
+    "./components/ChordDiagram.js",
+    "./components/Card.js",
+    "./components/Metronome.js",
+    "./components/Tempo.js",
+    "./components/Timbre.js",
+    "./components/Chords.js",
+    "./components/KeyDetector.js",
+    "./components/StyleDetector.js",
+    "./components/DrumSessions.js",
+    "./components/Dashboard.js",
+];
+
+function evalModule(code, url) {
+    const transformed = Babel.transform(code, { presets: ["react"] }).code;
+    // eval in function scope so `const` declarations in modules don't collide
+    const fn = new Function(transformed + "\n//# sourceURL=" + url);
+    fn.call(window);
+}
+
+async function loadAll() {
+    for (const url of MODULES) {
+        const res = await fetch(url);
+        if (!res.ok) throw new Error("Failed to load " + url + ": " + res.status);
+        const code = await res.text();
+        try { evalModule(code, url); }
+        catch (e) { console.error("Module error in", url, e); throw e; }
+    }
+}
+
+function App() {
+    useEffect(() => { document.title = "Music Dashboard"; }, []);
+    return <Dashboard />;
+}
+
+(async () => {
+    try {
+        await loadAll();
+        const container = document.getElementById("root");
+        ReactDOM.createRoot(container).render(<App />);
+    } catch (e) {
+        const c = document.getElementById("root");
+        c.innerHTML = '<div style="padding:2rem;color:#ef5b5b;font-family:sans-serif">'
+            + 'Failed to load dashboard: ' + (e && e.message ? e.message : e) + '</div>';
+        console.error(e);
+    }
+})();
+</script>
+</body>
+</html>
